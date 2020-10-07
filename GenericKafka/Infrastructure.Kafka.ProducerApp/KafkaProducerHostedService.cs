@@ -1,11 +1,11 @@
 ﻿using Infrastructure.Kafka.Adapters;
-using Infrastructure.Kafka.Contract;
+using Kafka.Contract;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Kafka.ProducerApp
+namespace Kafka.ProducerApp
 {
     public class KafkaProducerHostedService : IHostedService
     {

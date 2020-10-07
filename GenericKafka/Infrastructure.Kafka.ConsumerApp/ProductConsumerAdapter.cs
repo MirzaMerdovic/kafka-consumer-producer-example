@@ -1,13 +1,14 @@
-﻿using Infrastructure.Kafka.Adapters;
-using Infrastructure.Kafka.Contract;
+﻿using Infrastructure.Kafka;
+using Infrastructure.Kafka.Adapters;
 using Infrastructure.Kafka.Options;
+using Kafka.Contract;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Kafka.ConsumerApp
+namespace Kafka.ConsumerApp
 {
     public class ProductConsumerAdapter : ConsumerAdapter
     {

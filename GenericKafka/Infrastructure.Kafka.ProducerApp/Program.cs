@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Kafka.ProducerApp
+namespace Kafka.ProducerApp
 {
     internal class Program
     {

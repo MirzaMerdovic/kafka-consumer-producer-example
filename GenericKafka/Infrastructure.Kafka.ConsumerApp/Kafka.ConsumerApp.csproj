@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure.Kafka.Contract\Infrastructure.Kafka.Contract.csproj" />
+    <ProjectReference Include="..\Infrastructure.Kafka.Contract\Kafka.Contract.csproj" />
     <ProjectReference Include="..\Infrastructure.Kafka\Infrastructure.Kafka.csproj" />
   </ItemGroup>
 

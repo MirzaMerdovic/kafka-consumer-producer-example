@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Kafka.Contract
+namespace Kafka.Contract
 {
     [Serializable]
     public class ProductAlpha

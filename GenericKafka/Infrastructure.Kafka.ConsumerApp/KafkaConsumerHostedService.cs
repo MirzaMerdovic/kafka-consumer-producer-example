@@ -4,7 +4,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Kafka.ConsumerApp
+namespace Kafka.ConsumerApp
 {
     public class KafkaConsumerHostedService : IHostedService
     {

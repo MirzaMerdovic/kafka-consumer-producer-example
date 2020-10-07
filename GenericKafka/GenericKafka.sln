@@ -3,18 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Kafka", "Infrastructure.Kafka\Infrastructure.Kafka.csproj", "{97865B6E-5A1C-408B-9AA9-A527B8D88495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Kafka", "Infrastructure.Kafka\Infrastructure.Kafka.csproj", "{97865B6E-5A1C-408B-9AA9-A527B8D88495}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_docker", "_docker", "{896E7918-4D31-4151-B172-E74A5385EFDD}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Kafka.Contract", "Infrastructure.Kafka.Contract\Infrastructure.Kafka.Contract.csproj", "{DB842340-831D-412A-948E-B9D4848CC81C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.Contract", "Infrastructure.Kafka.Contract\Kafka.Contract.csproj", "{DB842340-831D-412A-948E-B9D4848CC81C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Kafka.ProducerApp", "Infrastructure.Kafka.ProducerApp\Infrastructure.Kafka.ProducerApp.csproj", "{1F168FDD-EC0C-4684-8ACF-40FCD4ABAECF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.ProducerApp", "Infrastructure.Kafka.ProducerApp\Kafka.ProducerApp.csproj", "{1F168FDD-EC0C-4684-8ACF-40FCD4ABAECF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Kafka.ConsumerApp", "Infrastructure.Kafka.ConsumerApp\Infrastructure.Kafka.ConsumerApp.csproj", "{64E7A85B-27BA-4C6C-BA64-BCB2FFD65FFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.ConsumerApp", "Infrastructure.Kafka.ConsumerApp\Kafka.ConsumerApp.csproj", "{64E7A85B-27BA-4C6C-BA64-BCB2FFD65FFB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{C579BCAB-1200-4153-8063-0AA57434D8AA}"
 EndProject
